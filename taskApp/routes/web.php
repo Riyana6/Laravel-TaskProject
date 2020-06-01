@@ -6,10 +6,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/about', function () {
-    return view('aboutus');
-});
 
 Route::get('/contact', function () {
     return view('contactus');
 });
+
+Route::get('/about','Frontendcontroller@indexaboutus');
