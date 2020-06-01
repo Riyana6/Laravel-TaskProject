@@ -6,7 +6,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/login',function(){
-
-    echo 'Riyana';
+Route::get('/about', function () {
+    return view('aboutus');
 });
