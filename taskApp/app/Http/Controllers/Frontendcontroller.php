@@ -10,4 +10,9 @@ class Frontendcontroller extends Controller
 
         return view('aboutus');
     }
+
+    public function indexcontactus(){
+
+        return view('contactus');
+    }
 }

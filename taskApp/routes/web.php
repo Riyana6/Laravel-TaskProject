@@ -7,8 +7,5 @@ Route::get('/', function () {
 });
 
 
-Route::get('/contact', function () {
-    return view('contactus');
-});
-
+Route::get('/contact','Frontendcontroller@indexcontactus');
 Route::get('/about','Frontendcontroller@indexaboutus');
