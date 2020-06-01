@@ -8,5 +8,5 @@ Route::get('/home', function () {
 
 Route::get('/login',function(){
 
-    echo 'Riyana'
+    echo 'Riyana';
 });
