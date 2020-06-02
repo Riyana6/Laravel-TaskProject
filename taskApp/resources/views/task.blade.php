@@ -16,6 +16,17 @@
                 </br>
                 <input type="button" class="btn- btn-primary" value="SAVE">
                 <input type="button" class="btn- btn-warning" value="CLEAR">
+                <table class="table table-dark">
+                    <th>ID</th>
+                    <th>Task</th>
+                    <th>Completed</th>
+                    <tr>
+                    <td>1</td>
+                    <td>I have to learn Laravel Today</td>
+                    <td>Not yet</td>                   
+                    </tr>
+                </table>
+            
             </div>
         </div>
     </div>
