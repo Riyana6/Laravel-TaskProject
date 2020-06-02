@@ -46,9 +46,16 @@
                     @else
                     <button class="btn btn-warning">Not Completed</button>
                     @endif
-                    </td>  
+                    </td>
+
                     <td>
-                        <a href="/markascompleted/{{}}" class="btn btn-primary">Mark As Conpleted</a>
+                    @if(!$task->iscompleted)
+                    
+                        <a href="/markascompleted/{{$task->id}}" class="btn btn-primary">Mark As Conpleted</a>
+                    @else
+                        <a href="/markasnotcompleted/{{$task->id}}" class="btn btn-danger">Mark As Not Conpleted</a>
+                    @endif
+                    
                     </td>                           
                     </tr>
                     @endforeach
