@@ -10,8 +10,8 @@ class TaskController extends Controller
     public function store(Request $request){
 
         $task=new Task;
-        $this->validate($requesr,[
-            'task'=>'required|max:100|min:',
+        $this->validate($request,[
+            'task'=>'required|max:100|min:5',
         ]);
         $task->task=$request->task;
         $task->save();
