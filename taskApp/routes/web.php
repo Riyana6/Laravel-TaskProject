@@ -6,6 +6,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/tasks', function () {
+    return view('tasks');
+});
 
-Route::get('/contact','Frontendcontroller@indexcontactus');
-Route::get('/about','Frontendcontroller@indexaboutus');
