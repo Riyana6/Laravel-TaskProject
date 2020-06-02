@@ -7,6 +7,6 @@ Route::get('/', function () {
 });
 
 Route::get('/tasks', function () {
-    return view('tasks');
+    return view('task');
 });
 

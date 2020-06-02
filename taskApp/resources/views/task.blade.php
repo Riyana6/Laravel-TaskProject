@@ -9,7 +9,7 @@
 <body>
     <div class="container">
     <div class="text-center">
-    Daily Tasks
+    <h1>Daily Tasks</h1>
     </div>
     </div>
 </body>
