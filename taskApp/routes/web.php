@@ -10,3 +10,4 @@ Route::get('/tasks', function () {
     return view('task');
 });
 
+Route::post('/saveTask', 'TaskController@store');

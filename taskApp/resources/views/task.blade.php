@@ -14,6 +14,7 @@
             <div class="col-md-12">
 
                 <form method="POST" action="/saveTask">
+                {{csrf_field()}}
                 <input type="text" class="form-control" name="task" placeholder="Enter your task here"/>
                 </br>
                 <input type="submit" class="btn- btn-primary" value="SAVE">
