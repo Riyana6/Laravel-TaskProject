@@ -13,6 +13,12 @@
         <div class="row">
             <div class="col-md-12">
 
+                @foreach($errors->all() as $error)
+                <div class="alert alert-danger" role="alert">
+                    {{$error}}
+                </div>
+                @endforeach
+
                 <form method="POST" action="/saveTask">
                 {{csrf_field()}}
                 <input type="text" class="form-control" name="task" placeholder="Enter your task here"/>
