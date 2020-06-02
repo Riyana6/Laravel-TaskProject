@@ -35,7 +35,14 @@
                     <tr>
                     <td>{{$task->id}}</td>
                     <td>{{$task->task}}</td>
-                    <td>{{$task->iscompleted}}</td>                   
+                    
+                    <td>
+                    @if($task->iscompleted)
+                    <button class="btn btn-success">Completed</button>
+                    @else
+                    <button class="btn btn-warning">Not Completed</button>
+                    @endif
+                    </td>                               
                     </tr>
                     @endforeach
                 </table>
