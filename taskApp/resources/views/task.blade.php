@@ -10,6 +10,11 @@
     <div class="container">
     <div class="text-center">
     <h1>Daily Tasks</h1>
+        <div class="row">
+            <div class="col-md-12">
+                <input type="text" class="form-control" name="task" placeholder="Enter your task here"
+            </div>
+        </div>
     </div>
     </div>
 </body>
